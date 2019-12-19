@@ -1,3 +1,5 @@
-p {
-    font-size: 48px;
-}
+.logo{
+        background: url(.../Images.logo.jpg);
+        width: 100%;
+        position: absolute;
+            }
