@@ -2,19 +2,42 @@
 
 /*-------------------------------------------------- Nav Bar */
 
-.nav{
-    width: 100%;
-    height: 270px;
+.logo{
     background: url(logo.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    display: block;
+    height: 20%;
+    width: 100%;
+    max-width: 100%;
+    border: 0;
+    position: fixed;
+    
 }
 
+.nav{    
+    display: inline-block;
+    list-style-type: none;
+    margin: 0, auto; 
+     
+    }
+
 .navlink{
-    padding: 57px;
-    float: left;    
+    padding: 25px;    
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: red;
     font-size: 48px;
+}
+
+/*-------------------------------------------------- Main Background */
+
+.background{
+    height: 100%;
+    margin: 0px;
+    background: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
