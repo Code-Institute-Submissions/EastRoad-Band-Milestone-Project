@@ -2,42 +2,59 @@
 
 /*-------------------------------------------------- Nav Bar */
 
-.logo{
-    background: url(logo.jpg);
+.navbar{
+    background-image: url(logo.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    height: 20%;
+    background-color: #000000;
+    width: 100% ;
+    height: 200px;
+    position: fixed;  
+    background-repeat: no-repeat;      
+}
+
+.link{
+    display: inline-block;
+    margin-top: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    background-color: #000000;
+    }
+
+    /*--------------------------------SECTION DIVS------------------*/
+
+.video{
+    background-color: #000000;
+    height: 100%;
     width: 100%;
-    max-width: 100%;
-    border: 0;
-    position: fixed;
+    padding: 10%;
     
 }
 
-.nav{    
-    display: inline-block;
-    list-style-type: none;
-    margin: 0, auto; 
-     
-    }
-
-.navlink{
-    padding: 25px;    
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: red;
-    font-size: 48px;
-}
-
-/*-------------------------------------------------- Main Background */
-
-.background{
+.bio{
+    background-color: green;
     height: 100%;
-    margin: 0px;
-    background: url(background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    width: 100%;
+    padding: 10%;
 }
+
+.tour{
+    background-color: purple;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+
+.gallery{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+
+.contact{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+
