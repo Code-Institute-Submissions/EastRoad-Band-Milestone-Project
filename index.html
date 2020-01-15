@@ -11,24 +11,27 @@
 </head>
 
 <header>  
-    <a id="top"></a>    
-        <nav class="navbar">
-        <a class="link" href="#">Tour Dates</a>
-        <a class="link" href="#">Gallery</a>
-        <a class="link" href="#">Contact Us</a>  
-    </nav>     
+    <div class="navigation-bar">
+        <div id="navigation-container">
+            <img src="logo.jpg"> 
+            <ul>                           
+                <li><a class="headingtext" href="#tourdates">Tour Dates</a></li>
+                <li><a class="headingtext" href="#">Gallery</a></li>
+                <li><a class="headingtext" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
 </header>
 
 <body>
-
-    <div class="video">
+    <div class="video white bgimage">    
     <h1>TimeBomb by Eastroad</h1>
     <iframe width="800" height="600" src="https://www.youtube.com/embed/uRpdPFuwW_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="bio">
-        <h1>Biography</h1>
-        <p>Eastroad are a four piece rock band from South London. They have played many live shows all over the country 
+        <h1 class="headingtext">Biography</h1>
+        <p class="text">Eastroad are a four piece rock band from South London. They have played many live shows all over the country 
         including the major UK music festival Glastonbury. 
         Last year Eastroad sold out London's famous venue The Borderline (capacity 350) and continue to put on live shows that are 
         hugely energetic. The band have recently been recording new material and are now back on the gigging circuit. 
@@ -36,16 +39,64 @@
         success with the next Album.</p>
     </div>
 
-    <div class="tour">
-        <h1>Tour Dates</h1>        
+    <div class="tour" id="#tourdates">
+        <h1 class="headingtext white">2020 UK Tour Dates</h1>
+            <table class="table table-dark table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Venue</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Buy Tickets</th>
+                     </tr>
+                </thead>
+            <tbody>
+                    <tr>
+                        <th scope="row">Friday 17th April 2020</th>
+                            <td>O2 Academy Islington</td>
+                             <td>London</td>
+                             <td>BUY TICKETS LINK/BUTTON</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Saturday 18th April 2020</th>
+                            <td>O2 Academy Brixton</td>
+                            <td>London</td>
+                            <td>BUY TICKETS LINK/BUTTON</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday 22nd April</th>
+                            <td>The Met Lounge</td>
+                            <td>Peterborough</td>
+                            <td>BUY TICKETS LINK/BUTTON</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Saturday 25th April</th>
+                            <td>The SugarMill</td>
+                            <td>Derby</td>
+                            <td>BUY TICKETS LINK/BUTTON</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friday 1st June</th>
+                            <td>Rock City</td>
+                            <td>Nottingham</td>
+                            <td>BUY TICKETS LINK/BUTTON</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Saturday 2nd June</th>
+                            <td>The Shed</td>
+                            <td>Leicester</td>
+                            <td>BUY TICKETS LINK/BUTTON</td>
+                    </tr>
+            </tbody>
+            </table>
     </div>
 
     <div class="gallery">
-        <h1>Gallery</h1>        
+        <h1 class="headingtext">Gallery</h1>        
     </div>
 
-    <div class="contact">
-        <h1>Contact Us</h1>        
+    <div class="contact white">
+        <h1 class="headingtext">Contact Us</h1>        
     </div>
 
 </body>

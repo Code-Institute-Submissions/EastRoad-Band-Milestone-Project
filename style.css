@@ -1,60 +1,115 @@
-@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Yanone+Kaffeesatz&display=swap');
 
+.logo {
+  float: left;
+}
 /*-------------------------------------------------- Nav Bar */
 
-.navbar{
-    background-image: url(logo.jpg);
-    background-position: center;
-    background-color: #000000;
-    width: 100% ;
-    height: 200px;
-    position: fixed;  
-    background-repeat: no-repeat;      
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+  position: fixed;
 }
 
-.link{
-    display: inline-block;
-    margin-top: 15%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 36px;
-    background-color: #000000;
-    }
+.navigation-bar {
+  background-color: #000000;
+  height: 200px;
+  width: 100%;
+  position: fixed;
+}
+
+#navigation-container img {
+  float: left;
+}
+
+#navigation-container ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+}
+
+#navigation-container li {
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+}
+
+#navigation-container li a {
+  color: white;
+  font-size: 52px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-decoration: none;
+  line-height: 200px;
+  padding: 5px 15px;
+  }
+
+#menu {
+  float: right;
+}
 
     /*--------------------------------SECTION DIVS------------------*/
+.bgimage{
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+}
 
 .video{
     background-color: #000000;
     height: 100%;
     width: 100%;
-    padding: 10%;
-    
+    padding-top: 20%;    
+    padding-left: 25%;             
 }
 
 .bio{
-    background-color: green;
+    background-color: #fafafa;
     height: 100%;
     width: 100%;
     padding: 10%;
 }
 
 .tour{
-    background-color: purple;
+    background-color: #000000;
     height: 100%;
     width: 100%;
     padding: 10%;
 }
 
+.table{
+    background-color: #000000;
+}
+
 .gallery{
-    background-color: white;
+    background-color: #fafafa;
     height: 100%;
     width: 100%;
     padding: 10%;
 }
 
 .contact{
-    background-color: yellow;
+    background-color: #000000;
     height: 100%;
     width: 100%;
     padding: 10%;
 }
 
+    /*--------------------------------BODY TEXT FORMATTING------------------*/
+
+.text{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+}
+
+.headingtext{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+  .white{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #fafafa
+    }  
