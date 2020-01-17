@@ -84,7 +84,7 @@
     background-color: #000000;
 }
 
-.gallery{
+.gallerysection{
     background-color: #fafafa;
     height: 100%;
     width: 100%;
@@ -112,4 +112,35 @@
   .white{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #fafafa
-    }  
+    } 
+
+    /*--------------------------------PHOTO GALLERY CSS ------------------*/
+   
+.gallery {
+  margin: 5px;
+  border: 1px solid #000000;
+  display: inline-block;  
+  width: 180px;
+  }
+
+.gallery:hover {
+  border: 1px solid #fafafa;  
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+} 
+
+   /*--------------------------------BUY TICKETS BUTTON ------------------*/
+
+.tickets{  
+  color: #000000;  
+  text-transform: none;
+  border: 1px solid transparent;
+  }
+
+.tickets a{
+    color: #000000;
+    text-align: center;
+}
