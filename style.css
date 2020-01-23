@@ -17,6 +17,7 @@ h1{
     color: #fafafa;
 }
 
+
 /*--------------------------------NAV BAR------------------*/
 
 .navbar{
@@ -30,6 +31,7 @@ h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+
 /*--------------------------------VIDEO------------------*/
 
 .video{
@@ -39,6 +41,7 @@ h1{
     height: 100%;
     width: 100%;
     margin-bottom: 0;
+    
 }
 
 /*--------------------------------ABOUT US------------------*/
@@ -48,7 +51,10 @@ h1{
     font-size: 40px;
     }
 
+
+
 /*--------------------------------TOUR DATES------------------*/
+
 
 .tickets{  
   color: #000000;  
@@ -62,6 +68,10 @@ h1{
 }
 
 /*--------------------------------GALLERY------------------*/
+.gallerysection{
+    padding-top: 20%;
+}
+
 .thumb{
         margin-bottom: 30px;
         margin-top: 30px;
