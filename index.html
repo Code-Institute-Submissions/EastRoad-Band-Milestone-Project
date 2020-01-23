@@ -4,44 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EastRoad</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>EastRoad - London's Premier Rock Band</title>
 </head>
+<body>
 
-<header>  
-    <div class="navigation-bar">
-        <div id="navigation-container">
-            <img src="logo.jpg"> 
-            <ul>                           
-                <li><a class="headingtext" href="#tourdates">Tour Dates</a></li>
-                <li><a class="headingtext" href="#gallerysection">Gallery</a></li>
-                <li><a class="headingtext" href="#contactus">Contact Us</a></li>
-            </ul>
+<!-- Nav Bar -->
+
+<nav class="navbar sticky-top navbar-expand-lg">
+  <img class="img-fluid" src="logo.jpg"></img>
+  
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#tourdates">Tour Dates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallerysection">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactus">Contact Us</a>
+      </li>      
+    </ul>
+  
+</nav>
+
+<!-- Video -->
+
+    <div class="container-fluid video text white">
+        <div class="row">
+            <h1>TimeBomb by Eastroad</h1>
+                <iframe width="800" height="600" src="https://www.youtube.com/embed/uRpdPFuwW_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-</header>
 
-<body>
-    <div class="video white bgimage">    
-    <h1>TimeBomb by Eastroad</h1>
-    <iframe width="800" height="600" src="https://www.youtube.com/embed/uRpdPFuwW_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+<!-- About Us -->
 
-    <div class="bio">
-        <h1 class="headingtext">Biography</h1>
-        <p class="text">Eastroad are a four piece rock band from South London. They have played many live shows all over the country 
+    <div class="container-fluid bio text">
+        <div class="row">
+        <h1>About Us</h1>
+        <p class="bio-text">Eastroad are a four piece rock band from South London. They have played many live shows all over the country 
         including the major UK music festival Glastonbury. 
         Last year Eastroad sold out London's famous venue The Borderline (capacity 350) and continue to put on live shows that are 
         hugely energetic. The band have recently been recording new material and are now back on the gigging circuit. 
         They have had Local, national and international radio play with the last single Ain't Like The Movies and hope to build on that 
         success with the next Album.</p>
+        </div>    
     </div>
 
-    <div class="tour" id="tourdates">
-        <h1 class="headingtext white">2020 UK Tour Dates</h1>
-            <table class="table table-dark table-bordered">
+<!-- Tour Dates -->
+
+    <div class="container-fluid tourdates text black white" id="tourdates">
+        <div class="row">
+            <h1>2020 UK Tour Dates</h1>
+                <table class="table table-dark table-bordered">
                 <thead>
                     <tr>
                         <th scope="col">Date</th>
@@ -52,7 +70,7 @@
                 </thead>
             <tbody>
                     <tr>
-                        <th scope="row">Friday 17th April 2020</th>
+                        <td scope="row">Friday 17th April 2020</td>
                             <td>O2 Academy Islington</td>
                              <td>London</td>
                              <td>
@@ -62,7 +80,7 @@
                             </td>
                     </tr>
                     <tr>
-                        <th scope="row">Saturday 18th April 2020</th>
+                        <td scope="row">Saturday 18th April 2020</td>
                             <td>O2 Academy Brixton</td>
                             <td>London</td>
                             <td>
@@ -72,7 +90,7 @@
                             </td>
                     </tr>
                     <tr>
-                        <th scope="row">Wednesday 22nd April</th>
+                        <td scope="row">Wednesday 22nd April</td>
                             <td>The Met Lounge</td>
                             <td>Peterborough</td>
                             <td>
@@ -82,7 +100,7 @@
                             </td>
                     </tr>
                     <tr>
-                        <th scope="row">Saturday 25th April</th>
+                        <td scope="row">Saturday 25th April</td>
                             <td>The SugarMill</td>
                             <td>Derby</td>
                             <td>
@@ -92,7 +110,7 @@
                             </td>
                     </tr>
                     <tr>
-                        <th scope="row">Friday 1st June</th>
+                        <td scope="row">Friday 1st June</td>
                             <td>Rock City</td>
                             <td>Nottingham</td>
                             <td>
@@ -102,7 +120,7 @@
                             </td>
                     </tr>
                     <tr>
-                        <th scope="row">Saturday 2nd June</th>
+                        <td scope="row">Saturday 2nd June</td>
                             <td>The Shed</td>
                             <td>Leicester</td>
                             <td>
@@ -113,112 +131,127 @@
                     </tr>
             </tbody>
             </table>
+        </div>
     </div>
 
-    <div class="gallerysection" id="gallerysection">
-        <h1 class="headingtext">Gallery (Click to Enlarge)</h1>
-           
-            <div class="gallery">
-                <a target="_blank" href="eastroadrob.jpg">
-                    <img src="eastroadrob.jpg" alt="er-rob" width="600" height="400">
-                </a>  
+<!-- Gallery -->
+
+    <div class="container-fluid gallery text" id="gallerysection">
+        <div class="row">
+        <h1>Gallery (Click to Enlarge)</h1>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="photo1.jpg" class="fancybox" rel="ligthbox" target="_blank">
+                    <img src="photo1.jpg" class="zoom img-fluid"  alt="image1">
+                   
+                </a>
             </div>
 
-            <div class="gallery">
-                <a target="_blank" href="background.jpg">
-                    <img src="background.jpg" alt="er-rob" width="600" height="400">
-                </a>  
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="photo2.jpg" class="fancybox" rel="ligthbox" target="_blank">
+                    <img src="photo2.jpg" class="zoom img-fluid"  alt="image2">
+                   
+                </a>
             </div>
 
-            <div class="gallery">
-                <a target="_blank" href="eastroadrob.jpg">
-                    <img src="eastroadrob.jpg" alt="er-rob" width="600" height="400">
-                </a>  
-            </div>  
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="photo3.jpg" class="fancybox" rel="ligthbox" target="_blank">
+                    <img src="photo3.jpg" class="zoom img-fluid"  alt="image3">
+                   
+                </a>
+            </div>
 
-            <div class="gallery">
-                <a target="_blank" href="background.jpg">
-                    <img src="background.jpg" alt="er-rob" width="600" height="400">
-                </a>  
-            </div>  
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="photo4.jpg" class="fancybox" rel="ligthbox" target="_blank">
+                    <img src="photo4.jpg" class="zoom img-fluid"  alt="image4">
+                   
+                </a>
+            </div>
 
-            <div class="gallery">
-                <a target="_blank" href="eastroadrob.jpg">
-                    <img src="eastroadrob.jpg" alt="er-rob" width="600" height="400">
-                </a>  
-            </div>         
-    </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="photo5.jpg" class="fancybox" rel="ligthbox" target="_blank">
+                    <img src="photo5.jpg" class="zoom img-fluid"  alt="image5">
+                   
+                </a>
+            </div>
 
-    <div class="contact white" id="gallerysection">
-    <h1 class="headingtext">Contact Us</h1>    
-    <div class="container">
-        <div id="contactus" class="row">            
-                <div class="col">  
-                          
-                    <form>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a href="photo6.jpg" class="fancybox" rel="ligthbox" target="_blank">
+                    <img src="photo6.jpg" class="zoom img-fluid"  alt="image6">
+                   
+                </a>
+            </div>
         
-                        <label for="name">Your Name:</label>
-                        <input type="text" name="name" id="name"required placeholder="Your Full Name">                   
-                        <br>
-                        <label for="email">Email Address:</label>
-                        <input type="email" name="email" id="email"required placeholder="Your Email Address">
-                        <br>
-                        <label for="phonenumber">Contact Number:</label>
-                        <input type="phonenumber" name="phonenumber" id="phonenumber"required placeholder="Your Phone Number">
-                        <br>
-                        <textarea rows="10" cols="50" name="comment" form="usrform" placeholder="Enter Message Here..."></textarea>
-                        <br>
-                        <button>Submit</button>              
+        </div>
+    </div>
+
+<!-- Contact Us -->
+
+    <div class="container-fluid contact text black white" id="contactus">
+        <div class="row">
+        <h1>Contact Us</h1>
+            <div class="col">                            
+                <form>        
+                    <label for="name">Your Name:</label>
+                        <input type="text" name="name" id="name"required placeholder="Your Full Name"></input>                   
+                            <br>
+                    <label for="email">Email Address:</label>
+                        <input type="email" name="email" id="email"required placeholder="Your Email Address"></input>
+                            <br>
+                    <label for="phonenumber">Contact Number:</label>
+                        <input type="phonenumber" name="phonenumber" id="phonenumber"required placeholder="Your Phone Number"></input>
+                            <br>
+                    <textarea rows="10" cols="50" name="comment" form="usrform" placeholder="Enter Message Here..."></textarea>
+                            <br>
+                    <button>Submit</button>              
                     </form>
                 </div>        
          
                 <div class="col">
-                    <img src="background.jpg" alt="er-rob" width="600" height="400">
+                    <img src="background.jpg" alt="er-rob" width="600" height="400" >
                 </div>
         </div>
     </div>
-    </div>
 
-   
+<!-- Footer -->
 
-</body>
-
-<footer class="container">
-    <div class="footer"> 
-    <div id="footer-details" class="row">
-        <div class="col">
-            <h5 class="uppercase general-sub">About</h5>
-            <p class="inline-block">
-             Eastroad are managed by XYC Records. 
-             For all PR Enquires please contact <a href="eastroad@live.co.uk">eastroad@live.co.uk</a>
-            </p>
-        </div>        
+    <footer class="container-fluid">
+        <div class="footer"> 
+            <div class="row justify-content-between">
+                    <div class="col">
+                        <h5>About</h5>
+                            <p>Eastroad are managed by XYC Records.<br> 
+                               For all PR Enquires please contact 
+                               <a href="eastroad@live.co.uk">eastroad@live.co.uk</a>
+                            </p>
+                    </div>        
          
-        <div class="col">
-            <h5 class="uppercase general-sub">Social</h5>
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                <a target="_blank" href="www.facebook.com/eastroadband">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                <a target="_blank" href="www.twitter.com/eastroad">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                <a target="_blank" href="www.youtube.com/eastroad">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">YouTube</span>
-                </a>
-                </li>
-            </ul>
+                    <div class="col">
+                        <h5>Follow us on Social Media!</h5>
+                            <ul class="list-inline social-links">
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="www.facebook.com/eastroadband">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="www.twitter.com/eastroad">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a target="_blank" href="www.youtube.com/eastroad">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">YouTube</span>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+            </div>
         </div>
-    </div>
-    </div>
 </footer>
 
+</body>
 </html>
