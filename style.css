@@ -126,3 +126,18 @@ img.zoom {
     color: #000000;
     background-color: #fafafa;    
 }
+
+/*--------------------------------MEDIA QUERIES ------------------*/
+
+
+/* Mobile Phones */
+@media only screen and (min-width: 600px) {}
+
+/* Tablets */
+@media only screen and (min-width: 768px) {}
+
+/* Desktops/Laptops */
+@media only screen and (min-width: 992px) {}
+
+/* Large Desktops  */
+@media only screen and (min-width: 1200px) {}
