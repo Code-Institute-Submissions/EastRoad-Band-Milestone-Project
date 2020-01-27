@@ -91,6 +91,25 @@ img.zoom {
 
 /*--------------------------------CONTACT US------------------*/
 
+/*--------------------------------BACK TO TOP BUTTON------------------*/
+
+#topbutton{
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 10%;
+    left: 90%;
+    max-width: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Abel', sans-serif;
+    color: #000000;
+    border-color: #000000;
+    background-color: #fafafa;
+    padding: .5px;
+    border-radius: 4px; 
+}
+
 /*--------------------------------FOOTER------------------*/
 .footer{
     font-family: 'Abel', sans-serif;
