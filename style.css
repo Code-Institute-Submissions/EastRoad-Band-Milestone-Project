@@ -35,7 +35,7 @@ h1{
 /*--------------------------------VIDEO------------------*/
 
 .video{
-    background:url(background.jpg);
+    background:url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -54,7 +54,6 @@ h1{
 
 
 /*--------------------------------TOUR DATES------------------*/
-
 
 .tickets{  
   color: #000000;  
