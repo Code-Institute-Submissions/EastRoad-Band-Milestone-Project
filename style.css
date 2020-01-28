@@ -3,7 +3,8 @@
 /*--------------------------------GENERAL FORMATING------------------*/
 
 h1{
-    font-family: 'Yanone Kaffeesatz', sans-serif;    
+    font-family: 'Yanone Kaffeesatz', sans-serif;  
+    text-align: center;  
 }
 
 .text{font-family: 'Abel', sans-serif;
@@ -11,10 +12,19 @@ h1{
 
 .black{
     background-color: #000000;
-}
+    }
 
 .white{
     color: #fafafa;
+}
+
+.section-space{
+    padding-top: 105px;
+}
+
+.heading-space{
+    padding-top: 75px;
+    padding-bottom: 30px;
 }
 
 
@@ -28,20 +38,24 @@ h1{
 .nav-link{
     color: #fafafa;
     font-size: 52px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;    
+}
+
+.logo{
+    height: 90px;
+
 }
 
 
 /*--------------------------------VIDEO------------------*/
 
-.video{
+.background{
     background:url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 0;
-    
+    background-position: center;
+    height: 600px;
+    width: 100%;    
 }
 
 /*--------------------------------ABOUT US------------------*/
@@ -51,6 +65,9 @@ h1{
     font-size: 40px;
     }
 
+.bio{
+    padding-top: 50px;
+}
 
 
 /*--------------------------------TOUR DATES------------------*/
