@@ -38,7 +38,8 @@ h1{
 .nav-link{
     color: #fafafa;
     font-size: 52px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;    
+    font-family: 'Yanone Kaffeesatz', sans-serif;   
+    margin-right: 120px; 
 }
 
 .logo{
@@ -47,7 +48,7 @@ h1{
 }
 
 
-/*--------------------------------VIDEO------------------*/
+/*--------------------------------BACKGROUND------------------*/
 
 .background{
     background:url(images/background.jpg);
@@ -58,7 +59,7 @@ h1{
     width: 100%;    
 }
 
-/*--------------------------------ABOUT US------------------*/
+/*--------------------------------ABOUT US/BIO------------------*/
 
 .bio-text{
     font-family: 'Abel', sans-serif;
@@ -68,6 +69,8 @@ h1{
 .bio{
     padding-top: 50px;
 }
+
+/*--------------------------------VIDEO------------------*/
 
 
 /*--------------------------------TOUR DATES------------------*/
@@ -106,6 +109,48 @@ img.zoom {
     }
 
 /*--------------------------------CONTACT US------------------*/
+
+#name{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#email{
+   margin: 10px;
+   border-radius: 10px;
+}
+
+#phonenumber{
+   margin: 10px;
+   border-radius: 10px;
+}
+
+#number{
+   margin: 10px;
+   border-radius: 10px;    
+}
+
+#date{
+   margin: 10px;
+   border-radius: 10px;
+     
+}
+
+#datelabel{
+    margin-left: 75px;
+}
+
+#comment{
+   margin: 10px;
+   border-radius: 10px;
+   margin-left: 210px;
+}
+
+#submit{
+   margin: 10px;
+   border-radius: 10px;
+   margin-left: 350px;  
+}
 
 /*--------------------------------BACK TO TOP BUTTON------------------*/
 
