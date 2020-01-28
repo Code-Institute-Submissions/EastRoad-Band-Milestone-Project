@@ -4,7 +4,8 @@
 
 h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;  
-    text-align: center;  
+    text-align: center; 
+    font-size: 52px; 
 }
 
 .text{font-family: 'Abel', sans-serif;
@@ -110,46 +111,41 @@ img.zoom {
 
 /*--------------------------------CONTACT US------------------*/
 
-#name{
+.form{
+    display: block;
+    text-align: center;
+}
+
+.formelement{
     margin: 10px;
+}
+
+#name{    
     border-radius: 10px;
 }
 
-#email{
-   margin: 10px;
+#email{   
    border-radius: 10px;
 }
 
-#phonenumber{
-   margin: 10px;
+#phonenumber{   
    border-radius: 10px;
 }
 
-#number{
-   margin: 10px;
+#number{   
    border-radius: 10px;    
 }
 
-#date{
-   margin: 10px;
-   border-radius: 10px;
-     
+#date{   
+   border-radius: 10px;     
 }
 
-#datelabel{
-    margin-left: 75px;
+#comment{   
+   border-radius: 10px;   
 }
 
-#comment{
-   margin: 10px;
-   border-radius: 10px;
-   margin-left: 210px;
-}
-
-#submit{
-   margin: 10px;
-   border-radius: 10px;
-   margin-left: 350px;  
+#submit{   
+   border-radius: 10px;    
 }
 
 /*--------------------------------BACK TO TOP BUTTON------------------*/
@@ -158,8 +154,8 @@ img.zoom {
     position: fixed;
     bottom: 10px;
     float: right;
-    right: 10%;
-    left: 90%;
+    right: 15%;
+    left: 85%;
     max-width: 100px;
     width: 100%;
     font-size: 20px;
