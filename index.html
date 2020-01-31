@@ -19,14 +19,15 @@
 
 <!-- Nav Bar -->
 
-<nav class="navbar navbar-expand-md sticky-top">
-        <a class="navbar-brand" href="#"><img class="img-fluid logo" src="images/logo.jpg"></img></a>
+<nav class="navbar navbar-expand-md fixed-top navbar-toggleable-md">
+        <a class="navbar-brand" href="#top"><img class="img-fluid logo" src="images/logo.jpg"></img></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-        </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#tourdates">Tour Dates</a>
@@ -290,8 +291,9 @@
 </footer>
 
 <!-- Back to Top Button -->
-
+    <div class="container-fluid">
     <button id="topbutton"><a href="#top">Back to Top</a></button>
+    </div>
 
 </body>
 </html>
