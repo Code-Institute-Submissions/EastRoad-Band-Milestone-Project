@@ -28,6 +28,10 @@ h1{
     padding-bottom: 30px;
 }
 
+.body{
+    overflow-x: hidden;
+}
+
 
 /*--------------------------------NAV BAR------------------*/
 
