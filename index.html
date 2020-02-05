@@ -1,299 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
 
-    <title>EastRoad - London's Premier Rock Band</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<title>EastRoad - London's Premier Rock Band</title>
 </head>
+
 <body id="top">
 
-<!-- Nav Bar -->
+	<!-- Nav Bar -->
 
-<nav class="navbar navbar-expand-md fixed-top navbar-toggleable-md">
-        <a class="navbar-brand" href="#top"><img class="img-fluid logo" src="images/logo.jpg"></img></a>
+	<nav class="navbar navbar-expand-md fixed-top navbar-toggleable-md">
+		<a class="navbar-brand" href="#top"><img class="img-fluid logo" src="images/logo.jpg"></a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-        
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto cnav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#tourdates">Tour Dates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#gallerysection">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contactus">Booking Enquiries</a>
-                </li>    
-            </ul>
-        </div>  
-</nav>
-
-<!-- Background -->
-
-<section class="background container-fluid"></section>
-
-<!-- About Us/Bio -->
-
-<section class="container bio text">
-    <article class="row">        
-        <p class="bio-text">Eastroad are a four piece rock band from South London. They have played many live shows all over the country 
-        including the major UK music festival Glastonbury.</p> 
-        <p class="bio-text">Last year Eastroad sold out London's famous venue The Borderline (capacity 350) and continue to put on live shows that are 
-        hugely energetic. The band have recently been recording new material and are now back on the gigging circuit. 
-        They have had Local, national and international radio play with the last single Ain't Like The Movies and hope to build on that 
-        success with the next Album.</p>
-    </article>    
-</section>
-
-<!-- Video -->
-
-<div class="container-fluid video text white black heading-space">
-    <h1>Our Latest Release!</h1>
-        <div class="row justify-content-center section-space">            
-                <iframe width="800" height="600" src="https://www.youtube.com/embed/uRpdPFuwW_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-</div>
-
-<!-- Tour Dates -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
 
-<section class="container tourdates text section-space" id="tourdates">
-    <h1>2020 UK Tour Dates</h1>
-        <div class="row heading-space">            
-                <table class="table table-dark table-bordered">
-                <thead>
-                    <tr>
-                        <th scope="col">Date</th>
-                        <th scope="col">Venue</th>
-                        <th scope="col">City</th>
-                        <th scope="col">Buy Tickets</th>
-                     </tr>
-                </thead>
-            <tbody>
-                    <tr>
-                        <td scope="row">Friday 17th April 2020</td>
-                            <td>O2 Academy Islington</td>
-                             <td>London</td>
-                             <td>
-                                <button class="tickets">
-                                    <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
-                                </button>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Saturday 18th April 2020</td>
-                            <td>O2 Academy Brixton</td>
-                            <td>London</td>
-                            <td>
-                                <button class="tickets">
-                                    <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
-                                </button>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Wednesday 22nd April</td>
-                            <td>The Met Lounge</td>
-                            <td>Peterborough</td>
-                            <td>
-                                <button class="tickets">
-                                    <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
-                                </button>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Saturday 25th April</td>
-                            <td>The SugarMill</td>
-                            <td>Derby</td>
-                            <td>
-                                <button class="tickets">
-                                    <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
-                                </button>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Friday 1st June</td>
-                            <td>Rock City</td>
-                            <td>Nottingham</td>
-                            <td>
-                                <button class="tickets">
-                                    <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
-                                </button>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">Saturday 2nd June</td>
-                            <td>The Shed</td>
-                            <td>Leicester</td>
-                            <td>
-                                <button class="tickets">
-                                    <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
-                                </button>
-                            </td>
-                    </tr>
-            </tbody>
-            </table>
-        </div>
-    
- </section>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav ml-auto cnav">
+				<li class="nav-item">
+					<a class="nav-link" href="#tour-dates">Tour Dates</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#gallery-section">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact-us">Booking Enquiries</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-<!-- Gallery -->
+	<!-- Background -->
 
-<section class="container-fluid gallery text section-space black white" id="gallerysection">
-    <h1>Gallery (Click to Enlarge)</h1>
-        <div class="row heading-space">        
+	<section class="background container-fluid"></section>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a data-fancybox="gallery" href="images/photo1.jpg" class="fancybox" rel="lightbox" target="_blank">
-                    <img src="images/photo1.jpg" class="zoom img-fluid"  alt="image1">
-                   
-                </a>
-            </div>
+	<!-- About Us/Bio -->
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a data-fancybox="gallery" href="images/photo2.jpg" class="fancybox" rel="lightbox" target="_blank">
-                    <img src="images/photo2.jpg" class="zoom img-fluid"  alt="image2">
-                   
-                </a>
-            </div>
+	<section class="container bio text">
+		<article class="row padding">
+			<p class="bio-text">Eastroad are a four piece rock band from South London. They have played many live shows
+				all over the country
+				including the major UK music festival Glastonbury.</p>
+			<p class="bio-text">Last year Eastroad sold out London's famous venue The Borderline (capacity 350) and
+				continue to put on live shows that are
+				hugely energetic. The band have recently been recording new material and are now back on the gigging
+				circuit.
+				They have had Local, national and international radio play with the last single Ain't Like The Movies
+				and hope to build on that
+				success with the next Album.</p>
+		</article>
+	</section>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a data-fancybox="gallery" href="images/photo3.jpg" class="fancybox" rel="lightbox" target="_blank">
-                    <img src="images/photo3.jpg" class="zoom img-fluid"  alt="image3">
-                   
-                </a>
-            </div>
+	<!-- Video -->
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a data-fancybox="gallery" href="images/photo4.jpg" class="fancybox" rel="lightbox" target="_blank">
-                    <img src="images/photo4.jpg" class="zoom img-fluid"  alt="image4">
-                   
-                </a>
-            </div>
+	<div class="container-fluid video white black heading-space">
+		<h1>Our Latest Release!</h1>
+		<div class="row justify-content-center section-space">
+			<iframe width="800" height="600" src="https://www.youtube.com/embed/uRpdPFuwW_w" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+	</div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a data-fancybox="gallery" href="images/photo5.jpg" class="fancybox" rel="lightbox" target="_blank">
-                    <img src="images/photo5.jpg" class="zoom img-fluid"  alt="image5">
-                   
-                </a>
-            </div>
+	<!-- Tour Dates -->
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a data-fancybox="gallery" href="images/photo6.jpg" class="fancybox" rel="lightbox" target="_blank">
-                    <img src="images/photo6.jpg" class="zoom img-fluid"  alt="image6">
-                   
-                </a>
-            </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a data-fancybox="gallery" href="images/photo7.jpg" class="fancybox" rel="lightbox" target="_blank">
-                    <img src="images/photo7.jpg" class="zoom img-fluid"  alt="image6">
-                   
-                </a>
-            </div>
+	<section class="container tourdates text section-space" id="tour-dates">
+		<h1>2020 UK Tour Dates</h1>
+		<div class="row heading-space">
+			<table class="table table-dark table-bordered">
+				<thead>
+					<tr>
+						<th scope="col">Date</th>
+						<th scope="col">Venue</th>
+						<th scope="col">City</th>
+						<th scope="col">Buy Tickets</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td scope="row">Friday 17th April 2020</td>
+						<td>O2 Academy Islington</td>
+						<td>London</td>
+						<td>
+							<button class="tickets">
+                                        <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
+                                    </button>
+						</td>
+					</tr>
+					<tr>
+						<td scope="row">Saturday 18th April 2020</td>
+						<td>O2 Academy Brixton</td>
+						<td>London</td>
+						<td>
+							<button class="tickets">
+                                        <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
+                                    </button>
+						</td>
+					</tr>
+					<tr>
+						<td scope="row">Wednesday 22nd April</td>
+						<td>The Met Lounge</td>
+						<td>Peterborough</td>
+						<td>
+							<button class="tickets">
+                                        <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
+                                    </button>
+						</td>
+					</tr>
+					<tr>
+						<td scope="row">Saturday 25th April</td>
+						<td>The SugarMill</td>
+						<td>Derby</td>
+						<td>
+							<button class="tickets">
+                                        <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
+                                    </button>
+						</td>
+					</tr>
+					<tr>
+						<td scope="row">Friday 1st June</td>
+						<td>Rock City</td>
+						<td>Nottingham</td>
+						<td>
+							<button class="tickets">
+                                        <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
+                                    </button>
+						</td>
+					</tr>
+					<tr>
+						<td scope="row">Saturday 2nd June</td>
+						<td>The Shed</td>
+						<td>Leicester</td>
+						<td>
+							<button class="tickets">
+                                        <a href="https://www.ticketmaster.co.uk/" target="_blank">Click Here to Buy Tickets</a>
+                                    </button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a data-fancybox="gallery" href="images/photo8.jpg" class="fancybox" rel="lightbox" target="_blank">
-                    <img src="images/photo8.jpg" class="zoom img-fluid"  alt="image6">
-                   
-                </a>
-            </div>
-        
-        </div>
-</section>
+	</section>
 
-<!-- Contact Us -->
+	<!-- Gallery -->
 
-    <div class="container-fluid contact text black white section-space" id="contactus">
-        <h1>Booking Enquiries</h1>
-            <div class="row justify-content-center heading-space form">                                     
-                <form>        
-                    <label class="formelement" for="name">Your Name:</label>
-                        <input class="formelement" type="text" name="name" id="name"required placeholder="Your Full Name"></input>                   
-                            
-                    <label class="formelement" for="email">Email Address:</label>
-                        <input class="formelement" type="email" name="email" id="email"required placeholder="Your Email Address"></input>
-                            
-                    <label class="formelement" for="phonenumber">Contact Number:</label>
-                        <input class="formelement" type="phonenumber" name="phonenumber" id="phonenumber"required placeholder="Your Phone Number"></input>
-                            <br>
-                    <label class="formelement" for="date" id="datelabel">Date Required:</label>
-                        <input class="formelement" type="date" name="date" id="date"required placeholder="Select a Date"></input>
+	<section class="container-fluid gallery section-space black white" id="gallery-section">
+		<h1>Gallery (Click to Enlarge)</h1>
+		<div class="row heading-space">
 
-                    <label class="formelement" for="select">Estimated Attendence Number:</label>
-                        <select class="formelement" id="number"required>
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a data-fancybox="gallery" href="images/photo1.jpg" class="fancybox" rel="lightbox" target="_blank">
+					<img src="images/photo1.jpg" class="zoom img-fluid"  alt="image1">
+
+                    </a>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a data-fancybox="gallery" href="images/photo2.jpg" class="fancybox" rel="lightbox" target="_blank">
+					<img src="images/photo2.jpg" class="zoom img-fluid"  alt="image2">
+
+                    </a>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a data-fancybox="gallery" href="images/photo3.jpg" class="fancybox" rel="lightbox" target="_blank">
+					<img src="images/photo3.jpg" class="zoom img-fluid"  alt="image3">
+
+                    </a>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a data-fancybox="gallery" href="images/photo4.jpg" class="fancybox" rel="lightbox" target="_blank">
+					<img src="images/photo4.jpg" class="zoom img-fluid"  alt="image4">
+
+                    </a>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a data-fancybox="gallery" href="images/photo5.jpg" class="fancybox" rel="lightbox" target="_blank">
+					<img src="images/photo5.jpg" class="zoom img-fluid"  alt="image5">
+
+                    </a>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a data-fancybox="gallery" href="images/photo6.jpg" class="fancybox" rel="lightbox" target="_blank">
+					<img src="images/photo6.jpg" class="zoom img-fluid"  alt="image6">
+
+                    </a>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a data-fancybox="gallery" href="images/photo7.jpg" class="fancybox" rel="lightbox" target="_blank">
+					<img src="images/photo7.jpg" class="zoom img-fluid"  alt="image6">
+
+                    </a>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<a data-fancybox="gallery" href="images/photo8.jpg" class="fancybox" rel="lightbox" target="_blank">
+					<img src="images/photo8.jpg" class="zoom img-fluid"  alt="image6">
+
+                    </a>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Contact Us -->
+
+	<div class="container-fluid contact text black white section-space" id="contact-us">
+		<h1>Booking Enquiries</h1>
+		<div class="row justify-content-center heading-space form">
+			<form>
+				<label class="formelement" for="name">Your Name:</label>
+				<input class="formelement" type="text" name="name" id="name"required placeholder="Your Full Name">
+
+				<label class="formelement" for="email">Email Address:</label>
+				<input class="formelement" type="email" name="email" id="email"required placeholder="Your Email Address">
+
+				<label class="formelement" for="phonenumber">Contact Number:</label>
+				<input class="formelement" type="phonenumber" name="phonenumber" id="phonenumber"required placeholder="Your Phone Number">
+				<br>
+				<label class="formelement" for="date" id="datelabel">Date Required:</label>
+				<input class="formelement" type="date" name="date" id="date"required placeholder="Select a Date">
+
+				<label class="formelement" for="number">Estimated Attendence Number:</label>
+				<select class="formelement" id="number"required>
                             <option value="1-30">1-30</option>
                             <option value="31-60">31-60</option>
                             <option value="61-80">61-80</option>
                             <option value="81-100">81-100</option>
                             <option value="100+">100+</option>
                         </select>
-                            <br>
-                    <textarea class="formelement" rows="3" cols="50" name="comment" id="comment" form="usrform"optional placeholder="Enter Message Here..."></textarea>
-                            <br>
-                    <button id="submit">Submit</button>              
-                    </form>       
-            </div>
-    </div>
+				<br>
+				<textarea class="formelement fetext" rows="3" cols="50" name="comment" id="comment" placeholder="Enter Message Here..."></textarea>
+				<br>
+				<button id="submit">Submit</button>
+			</form>
+		</div>
+	</div>
 
 
 
-<!-- Footer -->
+	<!-- Footer -->
 
-    <footer class="container-fluid">
-        <div class="footer"> 
-            <div class="row justify-content-between">
-                    <div class="col">                        
-                            <p>Eastroad are managed by XYC Records.<br> 
-                               For all PR Enquires please contact 
-                               <a href="eastroad@live.co.uk">eastroad@live.co.uk</a>
-                            </p>
-                    </div>        
-         
-                    <div class="col">
-                        <h5>Follow us on Social Media!</h5>
-                            <ul class="list-inline social-links">
-                                <li class="list-inline-item">
-                                    <a target="_blank" href="www.facebook.com/eastroadband">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" href="www.twitter.com/eastroad">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" href="www.youtube.com/eastroad">
-                                    <i class="fa fa-youtube" aria-hidden="true"></i>
-                                    <span class="sr-only">YouTube</span>
-                                    </a>
-                                </li>
-                            </ul>
-                    </div>
-            </div>
-        </div>
-</footer>
+	<footer class="container-fluid">
+		<div class="footer">
+			<div class="row justify-content-between">
+				<div class="col">
+					<p>Eastroad are managed by XYC Records.<br>
+                               For all PR Enquires please contact
+						<a href="eastroad@live.co.uk">eastroad@live.co.uk</a>
+					</p>
+				</div>
 
-<!-- Back to Top Button -->
-    <div class="container-fluid">
-    <button id="topbutton"><a href="#top">Back to Top</a></button>
-    </div>
+				<div class="col">
+					<h5>Follow us on Social Media!</h5>
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="www.facebook.com/eastroadband">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="www.twitter.com/eastroad">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="www.youtube.com/eastroad">
+								<i class="fa fa-youtube" aria-hidden="true"></i>
+								<span class="sr-only">YouTube</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Back to Top Button -->
+	<div class="container-fluid">
+		<button id="topbutton"><a href="#top">Back to Top</a></button>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
 
 </body>
+
 </html>
