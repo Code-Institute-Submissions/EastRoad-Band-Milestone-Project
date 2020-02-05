@@ -49,6 +49,7 @@ Languages used to create this site include HTML5 and CSS3. I have also used Boot
 * Google Fonts: https://fonts.google.com/ - used to choose the various fonts used within the website.
 * Font Awesome: https://fontawesome.com/ - used in the footer for the social media icon links. 
 * Fancy Box: http://fancybox.net/ - used to create the Gallery section
+* jQuery: https://code.jquery.com/ - Used with the NavBar and Fancybox Gallery
 
 ## Testing: 
 
